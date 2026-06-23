@@ -24,7 +24,7 @@ if [ ! -d ".venv" ]; then
   fi
 fi
 # shellcheck source=/dev/null
-source .venv/bin/activate
+source .venv/Scripts/activate
 
 # ── 3. Install deps ─────────────────────────────────────────────────────
 if command -v uv >/dev/null 2>&1; then
@@ -50,7 +50,7 @@ cat <<EOF
 
 [lite] Done. Activate the venv and start working:
 
-    source .venv/bin/activate
+    source .venv/Scripts/activate
     make api       # start FastAPI on :8000
     make lab       # open Jupyter on :8888
     make benchmark # Precision@10 + latency table
