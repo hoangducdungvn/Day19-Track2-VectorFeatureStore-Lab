@@ -1,6 +1,6 @@
 # Reflection — Lab 19
 
-**Tên:** Hoang
+**Tên:** Hoàng Đức Dũng
 **Cohort:** A20
 **Path đã chạy:** lite
 
